@@ -1,12 +1,13 @@
 import React from 'react';
 import '../assets/App.css';
+import Display from './Display';
 
 function Calculator() {
   return (
     <div className="container">
       <div className="calculator">
         <div className="keypad">
-          <div className="display">0</div>
+          <Display />
           <div className="row">
             <button type="button" className="key">AC</button>
             <button type="button" className="key">+/-</button>
